@@ -1,0 +1,12 @@
+[meta]
+name = "Custom Horn Sound"
+author = "Adrian Mirea"
+category = "Audio"
+version = "0.1"
+siteid = 0
+
+[script]
+dependencies = ["VehicleState", "Camera"]
+optional_dependencies = ["MLHook", "MLFeedRaceData"]
+exports = ["Export.CustomHorn.as"]
+module = "CustomHorn"
